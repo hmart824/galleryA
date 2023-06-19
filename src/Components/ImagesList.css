@@ -1,0 +1,33 @@
+.back-btn{
+    font-size: 2rem;
+    margin-right: 1.7rem;
+    cursor: pointer;
+}
+.images-list ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.image-name {
+    margin: 0;
+    width: 100%;
+    height: 1.8rem;
+    overflow: hidden;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+}
+.opts{
+    font-size: 1.5rem;
+    display: none;
+}
+.images-list ul li:hover .image-name{
+    width: 10rem;
+}
+.images-list ul li:hover .opts{
+    display: flex;
+}
